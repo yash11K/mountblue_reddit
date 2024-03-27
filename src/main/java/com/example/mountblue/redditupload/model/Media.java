@@ -13,7 +13,7 @@ import java.util.Date;
 public class Media {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private int id;
     @Enumerated(EnumType.STRING)
     private FileType fileType;
     @Lob
